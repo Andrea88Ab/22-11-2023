@@ -1,0 +1,238 @@
+.containerNav{
+    padding: 36px;
+
+}
+
+nav{
+    background-color:rgb(254, 247, 226) ;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 95px;
+
+    
+}
+
+.navcont1{
+    border-radius: 30px;
+    display: flex;
+    color: rgb(115, 33, 4);
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 223, 127);
+    margin-bottom: 2rem;
+    padding: 32px;
+    border-radius: 51px;
+    padding: 25px 0px;
+}
+
+.navcont1 img{
+    margin-right: 16px;
+}
+
+.navcont2{
+    border-radius: 30px;
+    display: flex;
+    color: rgb(115, 33, 4);
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 223, 127);
+    margin-bottom: 2rem;
+    /* margin-left:24px; */
+    padding: 17px 20px;
+    /* font-size: 12px; */
+    /* width: 200px; */
+}
+
+.navcont3{
+    border-radius: 30px;
+    display: flex;
+    color: rgb(115, 33, 4);
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 223, 127);
+    margin-bottom: 2rem;
+    padding: 17px 32px;
+
+}
+
+
+
+.itemGroup1{
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 100%; */
+    margin: 0 auto;
+    font-size: 11px;
+}
+
+
+
+.itemGroup2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    font-size: 11px;
+}
+
+
+
+.container{
+    margin: 0 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p{
+    font-size: 1.5em;
+}
+
+.conth1{
+    display: flex;
+    justify-content: center;
+    color: rgb(115, 33, 4);
+    margin-top: 2rem;
+    font-weight: 700;
+
+}
+    
+.card {
+    background-color: rgb(251, 247, 227);
+    border-radius: 70px;
+    overflow: hidden; /* Questo assicura che l'immagine rispetti il border-radius della card */
+    width: 100%; /* Per fare in modo che la card sia responsiva */
+    max-width: 768px; /* Puoi impostare la larghezza massima che preferisci */
+    margin: 4rem auto;
+    
+
+}
+
+.card-image {
+    width: 100%; /* L'immagine occupa tutta la larghezza della card */
+    display: block; /* Rimuove lo spazio extra che normalmente appare sotto le immagini */
+}
+
+.card-content {
+    padding: 20px; /* Aggiunge un po' di spazio attorno al testo */
+}
+
+.section1{
+    display: flex;
+    color: rgb(97, 36, 6);
+    margin-top: 2rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+.h1content h1{
+    font-size: 1.5rem;
+}
+
+.h1content  p{
+    font-size: 1.3rem;
+}
+
+.h1content{
+    line-height: 30px;
+}
+
+
+
+p{
+    font-size: 2em;
+}
+.sec2{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(255, 223, 127);
+    margin-top: 2rem;
+    border-radius: 34px;
+    width: 74%;
+    margin: 2rem auto;
+    height: auto;
+    padding: 18px;
+}
+
+.btn button{
+    border: none;
+    background-color: transparent;
+    color: rgb(107, 22, 1);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.news{
+    display: flex;
+    justify-content: center;
+    color: rgb(115, 33, 4);
+    
+}
+.news h2{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+article{
+    background-color:rgb(254, 247, 226) ;
+    border-radius: 20px;
+    margin: 0 1.5rem;
+    padding: 20px;
+    
+}
+
+article h3{
+    color: rgb(115, 33, 4);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+article p {
+    font-size: 20px;
+    margin-top: 1rem;
+   
+    
+    padding: 20px;
+}
+
+.lastimg{
+    width: 100%;
+}
+
+.lastimg img{
+    width: 100%;
+}
+
+@media screen and (min-width: 767px) {
+    nav{
+        flex-direction: row;
+    }
+
+    .containerNav{
+        display:flex;
+
+    }
+    .container{
+        display: flex;
+        
+    }
+    .card{
+        margin: 0;
+    }
+
+    
+}
